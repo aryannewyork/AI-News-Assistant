@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-between;
   border-bottom: 10px solid white;
+  z-index: 1;
 }
 
 .active-card, .card-container:active {
