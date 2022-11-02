@@ -28,4 +28,5 @@ footer {
   border-radius: 15%;
   padding: 0 5%;
   margin: 3% 0;
+  z-index: 1;
 }

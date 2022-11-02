@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import alanBtn from '@alan-ai/alan-sdk-web'
 import NewsCards from "./components/NewsCards/NewsCards"
 import wordsToNumbers from 'words-to-numbers'
+import Anim from './components/Background/Anim'
 import './App.css'
 
 
@@ -34,7 +35,10 @@ function App() {
   })
 
   return (
-    <div className="App">
+    <div className="App" style={{ position: 'relative', overflow: "hidden" }}>
+      <div style={{ position: 'absolute'}}>
+        <Anim />
+      </div>
       <div className="logo-container">
         <img src='https://alan.app/brand_assets/logo-vertical/color/alan-logo-vertical-color.png' className="alan-logo" alt="LOGO" />
       </div>

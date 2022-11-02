@@ -15,7 +15,7 @@ const NewsCards = ({ articles, activeArticle }) => {
   if(articles.length === 0) {
     return (
       <Grow in>
-        <Grid className='container' container alignItems={"stretch"} spacing={"3"}>
+        <Grid className='container' container alignItems={"stretch"} spacing={"6"}>
           {infoCards.map((infoCard) => (
             <Grid item xs={12} sm={16} md={4} lg={3} className='infoCard'>
               <div className='card' style={{backgroundColor: infoCard.color}}>
