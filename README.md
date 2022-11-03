@@ -64,3 +64,15 @@ To deploy this project run
 
 ![Listening_Fetching_News](https://user-images.githubusercontent.com/79625246/199540452-7a17d5d9-80e3-4f56-b7c4-bd95f0939485.png)
 
+
+## Some Example voice commands
+
+- Get me Indian/Japanese News -> Fetches the news from India/Japan respectively.
+- Show me news from CNN -> Fetches News from said source.
+- Open Article number `x` -> opens the news card with index number `x`. Index number is written on the bottom right corner.
+- Give the latest Technology News -> Fetches the news on Technology category.
+- Go back -> goes back to the landing page.
+- Hey/Hi/How are you doing -> Casual small talk.
+- What's up with Rishi Sunak -> Fetches latest articles on Rishi Sunak or any said topic.
+
+`NOTE:` Currently the News fetched is Global, so it comes in all languages. Except in the cases of Japanese and Indian News, those are region specific. More regions will be added later on.
