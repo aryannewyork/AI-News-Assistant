@@ -38,9 +38,10 @@ __NOTE__ :
 
 ## Deployment
 
-To deploy this project run
+To deploy this project clone this repository and run
 
 ```bash
+  cd client
   npm i && npm start
 ```
 - The landing page should look something like this : 
